@@ -5,7 +5,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgb(155, 120, 142);
     border-radius: 5px;
     margin: 0 7.5px 15px;
     overflow: hidden;
@@ -49,7 +48,8 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      border: 3px solid rgb(146, 5, 94);
+      border: 2px solid rgb(146, 5, 94);
+      border-radius: 3px;
       background-color: white;
       opacity: 0.7;
       position:absolute;
@@ -64,7 +64,7 @@
       .subtitle {
         font-weight: lighter;
         font-size: 16px;
-        font-family: 'Nunito', cursive;
+        font-family: 'Open Sans Condensed', sans-serif;
       }
     }
   }
