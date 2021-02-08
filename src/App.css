@@ -3,3 +3,7 @@ body{
     padding: 20px 60px;
     background:     linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73))
 }
+
+* {
+    box-sizing: border-box;
+}
