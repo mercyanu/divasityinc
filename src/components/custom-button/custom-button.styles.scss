@@ -32,5 +32,16 @@
       }
 
     }
+
+    &.inverted {
+      background-color: none;
+      border: none;
+      color: #fff;
+
+      &:hover {
+        background-color: rgb(117, 19, 93);
+        border: 2px dotted purple;
+      }
+    }
   }
   
